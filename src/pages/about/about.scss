@@ -1,0 +1,290 @@
+page-about {
+  font-family: sans-serif;
+
+
+}
+
+.item-body p {
+  color: white;
+  font-weight: 400;
+  margin-top: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+}
+
+.full-image {
+  max-height: 150px;
+  position: relative;
+}
+
+.subdued {
+  color: #e6e7e8;
+  text-decoration: none;
+}
+
+.subdued2 {
+  color: #e6e7e8;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.eng {
+  background-color: #f26667;
+}
+
+.danger {
+  background-color: #318ce7;
+  color: white;
+}
+
+.titletopper {
+  color: white;
+}
+
+.pop {
+  background-color: #8cccf0;
+}
+
+.sci {
+  background-color: #a2ce51;
+}
+
+.tech {
+  background-color: #b15fa5;
+}
+
+.cap {
+  padding: 12px;
+}
+
+.readbtn {
+  margin-top: -30px;
+  float: right;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+
+.favtop {
+  display: table;
+  height: 46px;
+  background-color: #e6e7e8;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#topper {
+  top: 0;
+  margin-left: 35px;
+  margin-top: 215px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+.favtop2 {
+  height: 40px;
+  background-color: lightgrey;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.inbtn {
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.secondaryp {
+  padding-top: 12px;
+}
+
+.card {
+  border-color: transparent;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px lightgrey;
+}
+
+.fullimg {
+  width: 100%;
+  height: auto;
+}
+
+.headertop {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: white;
+}
+
+.typeeng {
+  margin-top: 10px;
+  float: left;
+  margin-left: 10px;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 6px;
+  background-color: #f26667;
+  z-index: 100;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.typesci {
+  margin-top: 10px;
+  float: left;
+  margin-left: 10px;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 6px;
+  background-color: #a2ce51;
+  z-index: 100;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.typetech {
+  margin-top: 10px;
+  float: left;
+  margin-left: 10px;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 6px;
+  background-color: #b15fa5;
+  z-index: 100;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.typepop {
+  margin-top: 10px;
+  float: left;
+  margin-left: 10px;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 6px;
+  background-color: #8cccf0;
+  z-index: 100;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+body {
+  background: lightgrey;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.horizontal-scroll-wrapper {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: calc(150px);
+  max-height: 750px;
+  margin: 0;
+  padding-top: 1px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-transform: rotate(-90deg) translateY(-360px);
+          transform: rotate(-90deg) translateY(-360px);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+}
+.horizontal-scroll-wrapper > h1 {
+  font-size: 14px;
+  position: absolute;
+}
+.horizontal-scroll-wrapper > div {
+  display: block;
+  padding: 5px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+}
+
+.squares {
+  padding: 375px 0 0 0;
+}
+.squares > div {
+  width: 150px;
+  height: 150px;
+  margin: 10px 0;
+}
+
+.tinytxt {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+.engtop {
+  display: inline-block;
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f26667;
+  opacity: .8;
+}
+
+.arttop {
+  display: inline-block;
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fdbc56;
+  opacity: .8;
+}
+
+.scitop {
+  display: inline-block;
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #a2ce51;
+  opacity: .8;
+}
+
+.techtop {
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #b15fa5;
+  opacity: .8;
+}
+
+.tagcollection {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+}

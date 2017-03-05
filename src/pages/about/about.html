@@ -1,0 +1,114 @@
+<ion-header>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+  <ion-navbar class="danger">
+    <ion-title class="danger">
+      <div class="titletopper">Your Feed</div>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="favtop">
+
+    <div class="tagcollection">
+      <div class="tinytxt engtop">#1: Engineering</div>
+      <div class="tinytxt scitop">#2: Science</div>
+      <div class="tinytxt techtop">#3: Technology</div>
+    </div>
+
+    <!--<div class="horizontal-scroll-wrapper squares">
+      <h1 id="topper">Fav. Topics</h1>
+      <div class="tinytxt engtop">Engineering</div>
+      <div class="tinytxt scitop">Science</div>
+      <div class="tinytxt techtop">Technology</div>
+      <div class="tinytxt arttop">Art</div>
+    </div>-->
+
+  </div>
+
+  <div padding>
+
+    <ion-card class="list card eng">
+
+    <div class="item item-body">
+      <div class="typeeng">Engineering</div>
+        <img class="fullimg" src="assets/img/imgloop.png">
+        <div class="cap">
+          <div class="headertop">Menlo Park: Engineers designing Hyperloop train with 765 mph goal</div>
+          <p>
+            A team of 140 engineers from 14 nations gathered at a Menlo Park facility last year to build a prototype vehicle for the Hyperloop...
+          </p>
+          <p class="secondaryp">
+            <a href="#" class="subdued">24 Likes</a>
+            <a href="#" class="subdued2">10 Comments</a>
+          </p>
+          <a href="#" class="readbtn"><div class="inbtn">Read More →</div></a>
+        </div>
+      </div>
+
+    </ion-card>
+
+    <ion-card class="list card pop">
+
+    <div class="item item-body">
+      <div class="typepop">Pop Culture</div>
+        <img class="fullimg" src="assets/img/politic1.png">
+        <div class="cap">
+          <div class="headertop">Food Critics and the Oscars: The Week in Pop-Culture Writing</div>
+          <p>
+            Most food criticism is defined by a single word: should. It is almost impossible to encounter a review that doesn’t either explicitly...
+          </p>
+          <p class="secondaryp">
+            <a href="#" class="subdued">31 Likes</a>
+            <a href="#" class="subdued2">4 Comments</a>
+          </p>
+          <a [navPush]="articlesPage" class="readbtn"><div class="inbtn">Read More →</div></a>
+        </div>
+      </div>
+
+    </ion-card>
+
+    <ion-card class="list card sci">
+
+    <div class="item item-body">
+      <div class="typesci">Science</div>
+        <img class="fullimg" src="assets/img/tree.jpg">
+        <div class="cap">
+          <div class="headertop">If you Think the Amazon Jungle is Completely Wild, Think Again</div>
+          <p>
+            Of dozens of tree species partly or fully domesticated by ancient peoples, 20 kinds of fruit and nut trees still cover large chunks of...
+          </p>
+          <p class="secondaryp">
+            <a href="#" class="subdued">56 Likes</a>
+            <a href="#" class="subdued2">17 Comments</a>
+          </p>
+          <a href="#" class="readbtn"><div class="inbtn">Read More →</div></a>
+        </div>
+      </div>
+
+    </ion-card>
+
+    <ion-card class="list card tech">
+
+    <div class="item item-body">
+      <div class="typetech">Technology</div>
+        <img class="fullimg" src="assets/img/women.png">
+        <div class="cap">
+          <div class="headertop">Silicon Valley Investors Offer $10M to Boost Diversity in Tech</div>
+          <p>
+            Aiming to bring more women and people of color into engineering jobs, Learners Guild launches a unique training program, and some investors....
+          </p>
+          <p class="secondaryp">
+            <a href="#" class="subdued">45 Likes</a>
+            <a href="#" class="subdued2">21 Comments</a>
+          </p>
+          <a href="#" class="readbtn"><div class="inbtn">Read More →</div></a>
+        </div>
+      </div>
+
+    </ion-card>
+  </div>
+
+</ion-content>

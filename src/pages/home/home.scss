@@ -1,0 +1,70 @@
+page-home {
+
+}
+
+.danger {
+  background-color: #318ce7;
+  color: white;
+}
+
+.titletopper {
+  color: white;
+}
+
+progress[value] {
+     appearance: none;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 20px;
+  position: relative;
+    margin: 0 0 1.0em;
+
+
+}
+.tito {
+        font-size: 1.4em;
+    }
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.probar1[value]::-webkit-progress-value {
+    background: #8e44ad;
+}
+.probar2[value]::-webkit-progress-value {
+    background: #e67e22;
+}
+.probar3[value]::-webkit-progress-value {
+    background: #f1c40f;
+}
+.probar4[value]::-webkit-progress-value {
+    background: #2c3e50;
+}
+.probar5[value]::-webkit-progress-value {
+    background: #27ae60;
+}
+
+h5 {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: lightslategray;
+}
+#headerprofile {
+  font-weight: bolder;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.recmajor {
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
